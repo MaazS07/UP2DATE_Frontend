@@ -2,33 +2,27 @@
 
 TodoApp Pro is a feature-rich task management application that combines powerful todo functionality with user authentication and premium subscription plans.
 
-![TodoApp Pro Banner](https://via.placeholder.com/1200x300?text=TodoApp+Pro+Banner)
+
 
 ## 🌟 Features
 
 ### 🔐 Secure Authentication
 Powered by Firebase, our authentication system ensures your data stays private and secure.
-
-![Login Screen](https://via.placeholder.com/600x400?text=Login+Screen)
-
+![Login Screen](src/assets/login.png)
 - Easy sign-up process
 - Secure login with email/password or social media accounts
 - Password reset functionality
 
 ### 💰 Flexible Pricing Plans
 Choose the plan that fits your needs:
-
-![Pricing Plans](https://via.placeholder.com/600x400?text=Pricing+Plans)
-
+![Pricing Plans](src/assets/pricing_panel.png)
 - **Free Trial**: Experience premium features for 1 day
 - **Monthly Plan**: $7/month for continuous access
 - **Yearly Plan**: $70/year (Save 16%!)
 
 ### ✅ Powerful Todo Management
 Stay organized and boost your productivity with our intuitive todo system.
-
-![Todo Dashboard](https://via.placeholder.com/600x400?text=Todo+Dashboard)
-
+![Todo Dashboard](src/assets/todo2.png)
 - Create, edit, and delete tasks effortlessly
 - Categorize todos with tags
 - Set priorities and due dates
@@ -36,21 +30,17 @@ Stay organized and boost your productivity with our intuitive todo system.
 
 ### 🌓 Dark/Light Mode
 Work comfortably day or night with our sleek dark and light themes.
-
-![Dark Mode](https://via.placeholder.com/600x400?text=Dark+Mode)
-![Light Mode](https://via.placeholder.com/600x400?text=Light+Mode)
+![Dark Mode](src/assets/darkmode.png)
+![Light Mode](src/assets/lightmode.png)
 
 ### 💳 Secure PayPal Gateway
 Manage your subscription with ease using our integrated PayPal payment system.
-
-![PayPal Integration](https://via.placeholder.com/600x400?text=PayPal+Integration)
-
+![PayPal Integration](src/assets/paypal_integration.png)
 - Secure payment processing
 - Easy subscription management
 - Automatic renewals
 
 ## 🛠 Technology Stack
-
 - **Frontend**: React.js with Redux Toolkit for state management
 - **Styling**: Tailwind CSS for a responsive and modern UI
 - **Backend**: Node.js and Express.js
@@ -60,9 +50,16 @@ Manage your subscription with ease using our integrated PayPal payment system.
 
 ## 🚀 Getting Started
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/MaazS07/UP2DATE.git
+   cd todoapp-pro
+
+## 🚀 Getting Started
+
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/todoapp-pro.git
+   git clone https://github.com/MaazS07/UP2DATE.git
    cd todoapp-pro
    ```
 
