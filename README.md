@@ -1,4 +1,4 @@
-# TodoApp Pro 🚀
+##UP2DATE 🚀
 
 TodoApp Pro is a feature-rich task management application that combines powerful todo functionality with user authentication and premium subscription plans.
 
@@ -53,14 +53,14 @@ Manage your subscription with ease using our integrated PayPal payment system.
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/MaazS07/UP2DATE.git
-   cd todoapp-pro
+   
 
 ## 🚀 Getting Started
 
 1. Clone the repository
    ```
    git clone https://github.com/MaazS07/UP2DATE.git
-   cd todoapp-pro
+   cd frontend
    ```
 
 2. Install dependencies
