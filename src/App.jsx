@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import { useSelector, useDispatch } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
 import { fetchTodos } from './actions/todoActions';
-import TodoForm from './components/TodoForm';
+
 import TodoList from './components/TodoList';
 import Header from './components/Header';
 import TaskSummary from './components/TaskSummary';
 import LoginSignup from './components/Auth';
 import PricingPage from './components/PricingPage';
 import 'react-toastify/dist/ReactToastify.css';
+import TodoFormComponent from './components/TodoFormComponent';
 
 
 const App = () => {
@@ -55,7 +56,7 @@ const App = () => {
               user ? (
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                   <div className="col-span-2">
-                    <TodoForm darkMode={darkMode} />
+                    <TodoFormComponent darkMode={darkMode} />
                     <TodoList todos={todos} darkMode={darkMode} />
                   </div>
                   <div>
