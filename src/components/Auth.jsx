@@ -4,7 +4,7 @@ import { signInWithEmailAndPassword, createUserWithEmailAndPassword, signInWithP
 import { toast } from 'react-toastify';
 import { FaGoogle, FaEnvelope, FaLock, FaUserPlus, FaSignInAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { auth } from '../firebaseConfig';
+import { auth } from '../firebaseConfig.js';
 
 const LoginSignup = ({ setUser, darkMode }) => {
   const [isLogin, setIsLogin] = useState(true);
