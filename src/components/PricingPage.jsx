@@ -8,7 +8,8 @@ import { FaCheck, FaStar } from 'react-icons/fa';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 
-const PAYPAL_CLIENT_ID = 'ASmIkP6ZLOAJBsoC_Kql_C8d7IQM_AYD36bxLkZ8tLj2fMeWGeZfsRzUoIuDYkScoSwSR_0Sr6rgVBap'
+
+const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID;
 
 const PricingPage = ({ darkMode }) => {
   const [user, setUser] = useState(null);

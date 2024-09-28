@@ -11,6 +11,7 @@ import LoginSignup from './components/Auth';
 import PricingPage from './components/PricingPage';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [user, setUser] = useState(null);
@@ -42,6 +43,7 @@ const App = () => {
   };
 
   return (
+  
     <Router>
       <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'} transition-colors duration-300`}>
         <div className="container mx-auto p-4">
