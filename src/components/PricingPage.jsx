@@ -31,7 +31,7 @@ const PricingPage = ({ darkMode }) => {
 
     if (plan === 'free') {
       try {
-        const response = await axios.post('http://localhost:5000/api/create-paypal-order', {
+        const response = await axios.post('https://up2date-atvq.onrender.com/api/create-paypal-order', {
           userId: user.uid,
           plan: plan
         });
@@ -51,7 +51,7 @@ const PricingPage = ({ darkMode }) => {
 
   const createOrder = async (data, actions, plan) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/create-paypal-order', {
+      const response = await axios.post('https://up2date-atvq.onrender.com/api/create-paypal-order', {
         userId: user.uid,
         plan: plan
       });
@@ -65,7 +65,7 @@ const PricingPage = ({ darkMode }) => {
 
   const onApprove = async (data, actions, plan) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/capture-paypal-order', {
+      const response = await axios.post('https://up2date-atvq.onrender.com/api/capture-paypal-order', {
         orderID: data.orderID,
         userId: user.uid,
         plan: plan

@@ -9,7 +9,7 @@ import {
   deleteTodoSuccess,
 } from '../reducers/todoReducer';
 
-const API_URL = `http://localhost:5000/api/todos`;
+const API_URL = `https://up2date-atvq.onrender.com/api/todos`;
 
 
 export const fetchTodos = () => async (dispatch) => {
